@@ -9,17 +9,14 @@
     --div-4-bg-color: #ff0014;
   }
 
-  body {
-    background-color: var(--body-color);
-  }
-
-  .main{
-    height: 100vh;
-  }
-
-  .main-container {
+  .main-wrapper{
     background-color: var(--main-bg-color);
+    min-height: 100vh;
   }	
+
+  .main-container{
+    min-height: 100vh;
+  }
 
   .division-1 {
     background-color: var(--div-1-bg-color);
