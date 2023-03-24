@@ -1,0 +1,20 @@
+{
+  "name": "ejercicio-css",
+  "version": "1.0.0",
+  "description": "Actividad de ejercicio de CSS en clases.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "css",
+    "ejercicio",
+    "bootstrap",
+    "HTML"
+  ],
+  "author": "Gabriel Serrano",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
+}
