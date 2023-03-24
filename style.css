@@ -1,11 +1,17 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
+  --body-color: #f1f1f1;
+  --main-bg-color: #343434;
+  --div-1-bg-color: #00d7f4;
+  --div-2-bg-color: #ffdf01;
+  --div-3-bg-color: #fd7b03;
+  --div-4-bg-color: #ff0014;
 }
 
 body {
-  background: #f1f1f1;
+  background: var(--body-color);
 }
 
 .main {
