@@ -10827,3 +10827,31 @@ textarea.form-control-lg {
   --div-3-bg-color: #fd7b03;
   --div-4-bg-color: #ff0014;
 }
+
+body {
+  background-color: var(--body-color);
+}
+
+.main {
+  height: 100vh;
+}
+
+.main-container {
+  background-color: var(--main-bg-color);
+}
+
+.division-1 {
+  background-color: var(--div-1-bg-color);
+}
+
+.division-2 {
+  background-color: var(--div-2-bg-color);
+}
+
+.division-3 {
+  background-color: var(--div-3-bg-color);
+}
+
+.division-4 {
+  background-color: var(--div-4-bg-color);
+}

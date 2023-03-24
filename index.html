@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section class="main">
-      <section class="container-main">
+    <section class="main d-flex flex-column  justify-content-center">
+      <div class="main-container row">
         <!-- Barra lateral -->
-        <nav class="navbar">
-          <ul class="navbar-nav">
+        <nav class="col-md-2">
+          <ul class="navbar-nav ps-md-3 pt-md-4 text-light text-center text-md-start">
             <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Nosotros</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Perros</a></li>
@@ -21,11 +21,11 @@
           </ul>
         </nav>
         <!-- Secciones -->
-        <section class="container-diferenciales">
+        <section class="col-md-10 pe-md-5">
           <!-- Seccion celeste -->
-          <div class="division-1">
+          <div class="division-1 px-5">
             <h1 class="division-tittle">Lorem ipsum dolor sit amet</h1>
-            <p class="division-text">
+            <p class="division-text m-0">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
               ipsum dolor sit amet. Egestas dui id ornare arcu odio ut. Tellus
@@ -38,7 +38,7 @@
           <!-- Seccion amarilla -->
           <div class="division-2">
             <h1 class="division-tittle">Lorem ipsum dolor sit amet</h1>
-            <p class="division-text">
+            <p class="division-text m-0">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
               ipsum dolor sit amet. Egestas dui id ornare arcu odio ut. Tellus
@@ -51,7 +51,7 @@
           <!-- Seccion naranja -->
           <div class="division-3">
             <h1 class="division-tittle">Lorem ipsum dolor sit amet</h1>
-            <p class="division-text">
+            <p class="division-text m-0">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
               ipsum dolor sit amet. Egestas dui id ornare arcu odio ut. Tellus
@@ -64,7 +64,7 @@
           <!-- Seccion roja -->
           <div class="division-4">
             <h1 class="division-tittle">Lorem ipsum dolor sit amet</h1>
-            <p class="division-text">
+            <p class="division-text m-0">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem
               ipsum dolor sit amet. Egestas dui id ornare arcu odio ut. Tellus
@@ -75,8 +75,9 @@
             </p>
           </div>
         </section>
-      </section>
+      </div>
     </section>
+
     <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
